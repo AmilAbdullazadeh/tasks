@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+footer{
+    #top{ 
+        background-color: rgb(196, 194, 194);
+       .container{ 
+        .card{display: inline-block;
+             height: 110px;
+            width: 300px;
+            
+            
+
+            &--image{position: absolute;
+                 width: 45px;
+                    margin-left: 140px;
+                    margin-top: 35px;
+                   background-color: red;
+                   border-radius: 70px;
+                   
+               
+            }
+            &--info{
+                h2{position: absolute;
+                    margin-left: 200px;
+                    margin-top: 25px;
+                    color: rgb(9, 4, 71);
+                    
+                }
+                p{position: absolute;
+                    margin-left: 200px;
+                    margin-top: 60px;
+                    max-width: 170px;
+
+                }
+            }
+            
+            
+            
+            
+            
+          
+
+       } 
+        }
+
+    }
+
+
+
+
+    #orta{ height:40%;
+        .rtr{ 
+            table{
+                padding: 110px 80px;
+                th{
+                    text-align: left;
+                    padding-left: 60px;
+                    padding-bottom: 20px;
+                    font-weight: 700;
+                } 
+                td{
+                    padding: 5px 58px;
+                    a{
+                        text-decoration: none;
+                        color: gray;
+                        opacity: 0.9;
+                        i{
+                            color: rgb(46, 174, 248);
+                        }
+                        
+                    }
+                }
+            }
+        }
+    } 
+#bottom { position: absolute;
+    width: 100vW;
+    bottom: 155px;
+    height: 120px   ;
+    background-color: rgb(200, 193, 193);
+   
+   
+    .trt{
+        h1 {padding: 30px 140px;}
+       P{
+        position: absolute;
+        bottom: 35px;
+        left: 139.5px;
+       }
+      &--submit{
+        width: 135px;
+        height: 50px;
+        position: absolute;
+        right: 180px;
+        bottom: 35px;
+        background-color: rgba(16, 175, 255, 0.619);
+        color: white;
+        border: 0ch;
+      }
+          
+          }
+}
+  
+    }

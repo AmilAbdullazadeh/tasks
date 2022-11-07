@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+footer #top {
+  height: 120px;
+  padding: 20px 75px;
+  background-color: rgb(200, 193, 193);
+}
+footer #top .trt--submit {
+  margin-top: -40px;
+  margin-left: 880px;
+  width: 90px;
+  height: 38px;
+  background-color: rgba(16, 175, 255, 0.619);
+  color: white;
+}
+footer #top .trt p {
+  font-weight: 100;
+}
+
+#orta .rtr {
+  height: 260px;
+  padding: 45px 68px;
+}
+#orta .rtr table tr th {
+  text-align: left;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  font-weight: 700;
+}
+#orta .rtr table tr td {
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+#orta .rtr table tr td a {
+  text-decoration: none;
+  color: gray;
+  opacity: 0.9;
+  font-weight: 500;
+  font-weight: 500;
+}
+
+#bottom {
+  height: 80px;
+  padding: 30px 75px;
+  background-color: rgb(200, 193, 193);
+}
+
+#icons {
+  position: absolute;
+  top: 410px;
+  left: 980px;
+}
+#icons i {
+  padding: 5x;
+  color: rgb(92, 186, 241);
+}/*# sourceMappingURL=2w.css.map */

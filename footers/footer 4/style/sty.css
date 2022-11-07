@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+footer #left {
+  padding-bottom: 35px;
+}
+footer #left .er table tr th {
+  text-align: left;
+  padding: 50px 100px;
+}
+footer #left .er table tr td {
+  padding-bottom: 13px;
+}
+footer #left .er table tr td a {
+  padding: 25px 100px;
+  text-decoration: none;
+  color: gray;
+  opacity: 0.8;
+}
+
+#icons {
+  position: absolute;
+  top: 115px;
+  left: 100px;
+}
+#icons i {
+  padding: 5px;
+  font-size: 30px;
+  color: rgb(92, 186, 241);
+  margin-top: 17px;
+}
+#icons p {
+  font-weight: 100;
+  max-width: 220px;
+}
+
+#bottom {
+  padding-bottom: 100px;
+}
+#bottom .rer {
+  height: 70px;
+  background-color: rgb(202, 197, 197);
+}
+#bottom .rer p {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}/*# sourceMappingURL=sty.css.map */
