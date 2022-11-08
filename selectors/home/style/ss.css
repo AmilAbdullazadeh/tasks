@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#home {
+  width: 100%;
+  height: auto;
+}
+#home .top {
+  width: 100%;
+  height: 50px;
+  padding: 35px 40px;
+  text-align: center;
+}
+#home .top span {
+  margin: 30px;
+}
+#home .top hr {
+  margin-top: 25px;
+  opacity: 0.5;
+}
+
+#orta {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#orta .container {
+  padding: 130px 220px;
+}
+#orta .container .prp h1 {
+  margin-bottom: 20px;
+  color: rgb(10, 13, 163);
+}
+#orta .container .prp p {
+  margin-bottom: 35px;
+}
+#orta .container .prp .text {
+  position: relative;
+}
+#orta .container .prp .text p {
+  margin-left: 15px;
+}
+#orta .container .prp .line {
+  border-right: 5px solid green;
+  width: 5px;
+  height: 80px;
+  position: absolute;
+  top: -15px;
+}
+#orta .container .image img {
+  width: 450px;
+  height: 425px;
+  position: absolute;
+  right: 200px;
+  top: 140px;
+}/*# sourceMappingURL=ss.css.map */
