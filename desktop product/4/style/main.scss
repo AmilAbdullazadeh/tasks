@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#main {
+    .container {
+        display: flex;
+
+        .left {
+            padding-top: 30px;
+            padding-left: 80px;
+
+            img {
+                width: 880px;
+                height: 900;
+                padding-top: 30px;
+                padding-left: 40px;
+            }
+
+
+
+
+        }
+
+        .right {
+            width: 719.2px;
+
+            text-align: center;
+            padding-top: 65px;
+
+
+            .header {
+                H2 {
+                    padding-top: 50px;
+                }
+
+                p {
+                    padding-top: 15px;
+                    color: gray;
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 400px;
+                    padding-top: 60px;
+
+
+                }
+
+                h3 {
+                    position: relative;
+                    top: 85px;
+                    color: darkblue;
+                }
+
+                .alt {
+                    padding: 95px;
+
+                    .icon {
+                        i {
+                            padding-top: 25px;
+                            padding-right: 8px;
+
+                        }
+                    }
+
+                    .pre {
+                        position: relative;
+                        top: 35px;
+                        color: gray;
+                        font-size: 25px;
+
+                    }
+
+                    .nxt {
+                        position: relative;
+                        top: 35px;
+                        font-size: 25px;
+                        color: rgb(4, 220, 51);
+
+                    }
+
+                    .circle {
+
+                        display: flex;
+                        position: relative;
+                        top: 45px;
+                        left: 70px;
+                        font-size: 20px;
+
+
+
+
+
+
+
+                        .blue {
+
+                            color: rgb(0, 170, 255);
+                            margin-left: 133px;
+                            padding: 15px 5px;
+                        }
+
+                        .green {
+                            color: green;
+
+                            padding: 15px 5px;
+                        }
+
+                        .orange {
+                            color: orange;
+                            padding: 15px 5px;
+                        }
+
+                        .blue2 {
+                            color: rgb(2, 2, 72);
+                            padding: 15px 5px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+#footer {
+    .bottom { display:inline-block;
+        padding-left: 125px;
+      
+
+        .number { display:flex;
+            padding: 45px 15px;
+
+            h1 {
+                font-size: 50px;
+                color: red;
+            }
+           .easy{ padding: 7px 13px;
+            h3{
+                color: darkblue;
+                
+            }
+            p{padding-top: 4px;
+                color: gray;
+            }
+        }
+           
+        }
+    }
+}

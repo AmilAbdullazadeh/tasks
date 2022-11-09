@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#main .container {
+  display: flex;
+}
+#main .container .left .image {
+  width: 720px;
+  height: 1044px;
+}
+#main .container .left .image img {
+  padding-top: 30px;
+}
+#main .container .right {
+  width: 720px;
+  text-align: center;
+  padding-top: 80px;
+}
+#main .container .right .infor h3 {
+  color: gray;
+  font-size: 25;
+}
+#main .container .right .infor h1 {
+  color: darkblue;
+  font-size: 50;
+}
+#main .container .right .infor p {
+  color: gray;
+  opacity: 0.8;
+}
+#main .container .right .clase {
+  display: flex;
+  padding: 55px;
+}
+#main .container .right .clase .pro {
+  width: 75%;
+}
+#main .container .right .clase .pro .proimg {
+  padding-top: 25px;
+  padding-right: 45px;
+}
+#main .container .right .clase .pro .proimg img {
+  width: 250px;
+  height: 300px;
+}
+#main .container .right .clase .pro .info {
+  padding-top: 25px;
+  padding-right: 55px;
+}
+#main .container .right .clase .pro .info h3 {
+  color: rgb(14, 179, 255);
+  position: relative;
+  right: 75px;
+}
+#main .container .right .clase .pro .info .icons {
+  width: 70%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  bottom: 17px;
+}
+#main .container .right .clase .pro .info .icons i {
+  color: rgb(236, 11, 44);
+}
+#main .container .right .clase .pro .info h2 {
+  padding-right: 28px;
+  color: darkblue;
+}
+#main .container .right .clase .pro .info span {
+  position: relative;
+  top: 14px;
+  right: 22px;
+  color: gray;
+}
+#main .container .right .clase .pro .info .icon i {
+  padding-top: 35px;
+  padding-right: 85px;
+}
+#main .container .right .clase .pro .info .pre {
+  color: gray;
+  font-size: 20px;
+}
+#main .container .right .clase .pro .info .nxt {
+  font-size: 20px;
+  color: rgb(4, 220, 51);
+  padding-right: 25px;
+}
+#main .container .right .clase .pro .info .circle {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+#main .container .right .clase .pro .info .circle .blue {
+  color: rgb(0, 170, 255);
+  padding: 0px 5px;
+}
+#main .container .right .clase .pro .info .circle .green {
+  color: green;
+  padding: 0px 5px;
+}
+#main .container .right .clase .pro .info .circle .orange {
+  color: orange;
+  padding: 0px 5px;
+}
+#main .container .right .clase .pro .info .circle .blue2 {
+  color: rgb(2, 2, 72);
+  padding: 0px 5px;
+}
+#main .container .right .clase .pro .info .end {
+  display: flex;
+  margin: 25px 9px;
+}
+#main .container .right .clase .pro .info .end .clock {
+  color: rgb(0, 98, 255);
+  padding-left: 20px;
+}
+#main .container .right .clase .pro .info .end .trt {
+  color: orangered;
+  padding-left: 20px;
+}
+#main .container .right .clase .pro .info--submit {
+  margin-right: 41px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: rgb(0, 170, 255);
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+#mains .container {
+  display: flex;
+}
+#mains .container .right {
+  width: 720px;
+  text-align: center;
+  padding-top: 80px;
+}
+#mains .container .right .infor h3 {
+  color: gray;
+  font-size: 25;
+}
+#mains .container .right .infor h1 {
+  color: darkblue;
+  font-size: 50;
+}
+#mains .container .right .infor p {
+  color: gray;
+  opacity: 0.8;
+}
+#mains .container .right .clase {
+  display: flex;
+  padding: 55px;
+}
+#mains .container .right .clase .pro {
+  width: 75%;
+}
+#mains .container .right .clase .pro .proimg {
+  padding-top: 25px;
+  padding-right: 45px;
+}
+#mains .container .right .clase .pro .proimg img {
+  width: 250px;
+  height: 300px;
+}
+#mains .container .right .clase .pro .info {
+  padding-top: 25px;
+  padding-right: 55px;
+}
+#mains .container .right .clase .pro .info h3 {
+  color: rgb(14, 179, 255);
+  position: relative;
+  right: 75px;
+}
+#mains .container .right .clase .pro .info .icons {
+  width: 70%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  bottom: 17px;
+}
+#mains .container .right .clase .pro .info .icons i {
+  color: rgb(236, 11, 44);
+}
+#mains .container .right .clase .pro .info h2 {
+  padding-right: 28px;
+  color: darkblue;
+}
+#mains .container .right .clase .pro .info span {
+  position: relative;
+  top: 14px;
+  right: 22px;
+  color: gray;
+}
+#mains .container .right .clase .pro .info .icon i {
+  padding-top: 35px;
+  padding-right: 85px;
+}
+#mains .container .right .clase .pro .info .pre {
+  color: gray;
+  font-size: 20px;
+}
+#mains .container .right .clase .pro .info .nxt {
+  font-size: 20px;
+  color: rgb(4, 220, 51);
+  padding-right: 25px;
+}
+#mains .container .right .clase .pro .info .circle {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+#mains .container .right .clase .pro .info .circle .blue {
+  color: rgb(0, 170, 255);
+  padding: 0px 5px;
+}
+#mains .container .right .clase .pro .info .circle .green {
+  color: green;
+  padding: 0px 5px;
+}
+#mains .container .right .clase .pro .info .circle .orange {
+  color: orange;
+  padding: 0px 5px;
+}
+#mains .container .right .clase .pro .info .circle .blue2 {
+  color: rgb(2, 2, 72);
+  padding: 0px 5px;
+}
+#mains .container .right .clase .pro .info .end {
+  display: flex;
+  margin: 25px 9px;
+}
+#mains .container .right .clase .pro .info .end .clock {
+  color: rgb(0, 98, 255);
+  padding-left: 20px;
+}
+#mains .container .right .clase .pro .info .end .trt {
+  color: orangered;
+  padding-left: 20px;
+}
+#mains .container .right .clase .pro .info--submit {
+  margin-right: 41px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: rgb(0, 170, 255);
+  border-radius: 25px;
+  font-size: 18px;
+}
+#mains .container .left .image {
+  width: 250px;
+  height: 500px;
+}
+#mains .container .left .image img {
+  width: 799px;
+  height: 1140;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}/*# sourceMappingURL=main.css.map */
