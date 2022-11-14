@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  background-color: rgba(211, 211, 211, 0.525);
+  height: 630px;
+}
+main #top {
+  padding-bottom: 35px;
+}
+main #top .container {
+  text-align: center;
+  padding-top: 65px;
+}
+main #top .container h1 {
+  color: rgba(2, 2, 48, 0.803);
+  font-size: 45px;
+  padding-bottom: 18px;
+}
+main #top .container p {
+  color: rgba(151, 147, 147, 0.938);
+}
+main #teams .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 55px;
+}
+main #teams .container .card {
+  width: 250px;
+  height: 240px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+main #teams .container .card img {
+  width: 250px;
+}
+main #teams .container .card .info {
+  text-align: center;
+}
+main #teams .container .card .info h3 {
+  margin-top: 12px;
+}
+main #teams .container .card .info h4 {
+  margin-top: 10px;
+  color: rgb(0, 179, 255);
+}/*# sourceMappingURL=main.css.map */

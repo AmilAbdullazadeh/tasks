@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 95vw;
+  height: 1400px;
+}
+
+main #top .container .info b {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  opacity: 0.8;
+  padding-bottom: 10px;
+}
+main #top .container .info h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  color: rgb(23, 3, 95);
+}
+main #top .container .info p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  opacity: 0.9;
+}
+main #top .container .men {
+  text-align: center;
+  padding-top: 45px;
+  font-size: 25px;
+}
+main #top .container .men span {
+  padding: 15px;
+  margin-left: 25px;
+  border: 2px solid rgb(1, 208, 255);
+  border-width: 0.1cm;
+  color: rgb(1, 208, 255);
+  background-color: white;
+  border-radius: 55%;
+}
+main #top .container .card {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  padding-left: 108px;
+}
+main #top .container .card--image {
+  padding-top: 35px;
+  height: 400px;
+  width: 200px;
+}
+main #top .container .card--infor {
+  padding-top: 20px;
+  width: 350px;
+}
+main #top .container .card--infor h5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 11px;
+  color: rgb(23, 3, 95);
+}
+main #top .container .card--infor p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 11px;
+  color: gray;
+}
+main #top .container .card--infor .pre {
+  color: gray;
+}
+main #top .container .card--infor .up {
+  color: rgb(21, 197, 44);
+}
+main #top .container .card .circle {
+  display: flex;
+  padding-top: 13px;
+}
+main #top .container .card .circle .blue {
+  padding-left: 145px;
+  color: blue;
+}
+main #top .container .card .circle .green {
+  color: green;
+}
+main #top .container .card .circle .orange {
+  color: orange;
+}
+main #top .container .card .circle .blue2 {
+  color: rgb(2, 2, 72);
+}/*# sourceMappingURL=main.css.map */

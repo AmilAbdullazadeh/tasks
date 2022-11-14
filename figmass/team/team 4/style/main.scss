@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+
+main{ background-color: rgba(211, 211, 211, 0.525);
+    height: 650px;
+#top{ padding-bottom: 35px;
+    .container{
+        text-align: center;
+        padding-top: 65px;
+        h1{
+            color:rgba(2, 2, 48, 0.803);
+            font-size: 45px;
+            padding-bottom: 18px;
+        }
+        p{
+            color: rgba(151, 147, 147, 0.938);
+        }
+
+    }
+}
+#teams{
+    .container{ display: flex;
+        justify-content: center;
+        column-gap:25px;
+        .card{
+            width: 329px;
+            height: 350px;
+            margin-top: 55px;
+          
+            background-color: #fff;
+      img{
+        width: 100%;
+      }
+           
+           
+            .info{
+                h3{
+                    margin-top: 15px;
+                    color: rgb(33, 154, 241);
+                }
+                p{
+                    margin-top: 10px;
+                }
+                i{ 
+                    color: rgb(12, 173, 242);
+                    padding: 11px 7px;
+                }
+              
+        
+            text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    #top {
+        .container {
+            text-align: center;
+            padding-top: 55px;
+
+            h1 {
+                color: rgba(2, 2, 48, 0.803);
+                font-size: 45px;
+                padding-bottom: 18px;
+            }
+
+            p {
+                color: rgba(151, 147, 147, 0.938);
+            }
+
+        }
+    }
+
+    #teams {
+        .container {
+            display: flex;
+            justify-content:center;
+           padding: 65px;
+           flex-wrap: wrap;
+
+
+
+
+            .card {
+                display: flex;
+                justify-content:center;
+                gap: 13px;
+               padding: 55px;
+             
+                img {
+                    width: 130px;
+                    height: auto;
+                }
+
+                .info {
+                    width: 150px;
+                   padding-top: 35px;
+
+                    h3 {
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-weight: 300;
+                        opacity: 0.8;
+
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+}

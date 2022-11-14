@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+main #top .container {
+  text-align: center;
+  padding-top: 55px;
+}
+main #top .container h1 {
+  color: rgba(2, 2, 48, 0.803);
+  font-size: 45px;
+  padding-bottom: 18px;
+}
+main #top .container p {
+  color: rgba(151, 147, 147, 0.938);
+}
+main #team .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  padding: 60px 85px;
+  flex-wrap: wrap;
+}
+main #team .container .card img {
+  margin-bottom: 9px;
+}
+main #team .container .card .info h3 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+main #team .container .card .info p {
+  color: rgb(130, 127, 127);
+  opacity: 0.9;
+}/*# sourceMappingURL=main.css.map */
