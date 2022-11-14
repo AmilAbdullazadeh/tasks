@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#top {
+  height: 300px;
+}
+#top .container {
+  text-align: center;
+  padding-top: 85px;
+}
+#top .container .Info h5 {
+  color: rgb(0, 132, 255);
+  font-size: 15px;
+}
+#top .container .Info h1 {
+  padding-top: 13px;
+  font-size: 35px;
+}
+#top .container .Info p {
+  color: gray;
+  opacity: 0.9;
+  padding-top: 13px;
+}
+
+#credit {
+  display: flex;
+  justify-content: center;
+}
+#credit .container {
+  width: 800px;
+  height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 80px 25px;
+  row-gap: 35px;
+}
+#credit .container .card {
+  width: 440px;
+  height: 97px;
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  padding-left: 0px;
+  gap: 20px;
+}
+#credit .container .card img {
+  display: flex;
+  padding: 22px 19px;
+  width: 70px;
+  height: 76px;
+  background: #E74040;
+  border-radius: 10px;
+}
+#credit .container .card .text {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 5px;
+  width: 350px;
+  height: 97px;
+}/*# sourceMappingURL=main.css.map */

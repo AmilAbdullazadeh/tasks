@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main .container {
+  display: flex;
+}
+#main .container img {
+  width: 100%;
+  height: 100%;
+}
+#main .container .Info {
+  border: 4px solid #fff;
+  padding-top: 68px;
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  text-align: center;
+  top: 79px;
+  left: 243px;
+  color: #000;
+  background-color: #fff;
+}
+#main .container .Info .credit {
+  width: 50px;
+  height: 50px;
+}
+#main .container .Info h1 {
+  font-size: 38px;
+  margin-top: 22px;
+}
+#main .container .Info p {
+  padding-top: 22px;
+}
+#main .container .Info form {
+  padding-top: 42px;
+}
+#main .container .Info form .pre {
+  background-color: rgb(6, 167, 253);
+  width: 300px;
+  height: 45px;
+  border: 0px;
+  color: #fff;
+}/*# sourceMappingURL=MAIN.css.map */

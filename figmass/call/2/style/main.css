@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#main {
+  background-color: rgb(2, 2, 79);
+  padding-top: 85px;
+}
+#main .container {
+  height: 400px;
+  color: #fff;
+  text-align: center;
+}
+#main .container h1 {
+  padding-top: 25px;
+  font-size: 45px;
+}
+#main .container p {
+  padding-top: 15px;
+  opacity: 0.8;
+}
+#main .container form {
+  padding-top: 15px;
+}
+#main .container form .pre {
+  width: 250px;
+  height: 35px;
+  background-color: rgb(0, 191, 255);
+  color: #fff;
+  border: 0px;
+}
+#main .container h5 {
+  padding-top: 15px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#main {
+  padding-top: 85px;
+}
+#main .container {
+  height: 400px;
+  text-align: center;
+}
+#main .container h1 {
+  padding-top: 25px;
+}
+#main .container form {
+  padding-top: 25px;
+}
+#main .container form .pre {
+  width: 95px;
+  height: 35px;
+  background-color: rgb(0, 191, 255);
+  color: #fff;
+  border: 0px;
+}
+#main .container form .up {
+  width: 108px;
+  height: 35px;
+  color: rgb(0, 191, 255);
+  background-color: #fff;
+  border: 1px solid rgb(0, 191, 255);
+}
+#main .container p {
+  padding-top: 25px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ width: 100%;
+    height: auto;
+}
+
+#main{ padding-top: 65px;
+    .container{ height: 400px;
+      
+        text-align: center;
+        h4{padding-top: 55px;
+            color: rgb(30, 184, 255);
+            font-size: 17px;
+        }
+      h1{
+        padding-top: 25px;
+        font-size: 35px;
+      }
+      p{
+        padding-top: 25px;
+        opacity: 0.8;
+      }
+      .ios{
+        img{
+          padding-top: 25px;
+        }
+      }
+     
+    
+      
+      
+        
+      
+  
+    }
+  }
