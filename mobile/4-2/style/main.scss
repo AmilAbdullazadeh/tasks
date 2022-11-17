@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    .container {
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+
+        .all {
+            width: 100%;
+
+            .top {
+                padding-top: 15px;
+                display: flex;
+                justify-content: space-between;
+
+                .Info {
+            
+                    h1 {
+                        color: rgb(4, 4, 85);
+                        
+                    }
+
+                   
+                }
+
+                .button {width: 62%;
+                  padding-top: 5px;
+                 
+                  
+                    span {
+                        padding: 9px;
+                        
+                        
+                      
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            
+
+                        }
+                    }
+                }
+                .icons{ word-spacing: 8px;
+                    i{
+                        border: 1px solid gray;
+                        border-radius: 50%;
+                        padding: 10px 10px;
+                       
+                    }
+                }
+            }
+            .line{
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+#main2 { padding-top: 35px;
+    .all{
+        .container {
+        width: 85.5%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+
+        .card {
+            width: 20%;
+            height: auto;
+      padding: 22px;
+      
+
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .text {
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 25px;
+
+                span {
+                    position: relative;
+                    top: 5px;
+                }
+
+                h3 {
+                    color: rgb(4, 4, 85);
+
+                }
+
+                p {
+                    color: rgb(84, 79, 79);
+                    opacity: 0.8;
+                    padding-top: 5px;
+                }
+
+                .pre {
+                    color: gray
+                }
+
+                .up {
+                    color: rgb(8, 178, 8);
+
+                }
+
+
+
+
+            }
+        }
+    }
+       
+    }
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#main2 .all .container .card {
+    width: 100%;
+}
+
+#main .container .all .top {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#main .container .all .top .button {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+#main .container .all .top .icons{
+    margin-top: 25px;
+    
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #main2 .all .container .card {
+        width: 32%;
+    }
+    #main .container .all .top .icons {
+        width: 20%;
+       
+    }
+}
+
+    

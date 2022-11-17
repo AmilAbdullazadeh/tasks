@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main .container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+#main .container .all {
+  width: 100%;
+}
+#main .container .all .top {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#main .container .all .top .Info h1 {
+  color: rgb(4, 4, 85);
+}
+#main .container .all .top .button {
+  width: 62%;
+  padding-top: 5px;
+}
+#main .container .all .top .button span {
+  padding: 9px;
+}
+#main .container .all .top .button span a {
+  text-decoration: none;
+  color: black;
+}
+#main .container .all .top .icons {
+  word-spacing: 8px;
+}
+#main .container .all .top .icons i {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+#main .container .all .line {
+  padding-top: 30px;
+}
+
+#main2 {
+  padding-top: 35px;
+}
+#main2 .all .container {
+  width: 85.5%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main2 .all .container .card {
+  width: 20%;
+  height: auto;
+  padding: 22px;
+}
+#main2 .all .container .card .image img {
+  width: 100%;
+}
+#main2 .all .container .card .text {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+#main2 .all .container .card .text span {
+  position: relative;
+  top: 5px;
+}
+#main2 .all .container .card .text h3 {
+  color: rgb(4, 4, 85);
+}
+#main2 .all .container .card .text p {
+  color: rgb(84, 79, 79);
+  opacity: 0.8;
+  padding-top: 5px;
+}
+#main2 .all .container .card .text .pre {
+  color: gray;
+}
+#main2 .all .container .card .text .up {
+  color: rgb(8, 178, 8);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #main2 .all .container .card {
+    width: 100%;
+  }
+  #main .container .all .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main .container .all .top .button {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #main .container .all .top .icons {
+    margin-top: 25px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #main2 .all .container .card {
+    width: 32%;
+  }
+  #main .container .all .top .icons {
+    width: 20%;
+  }
+}/*# sourceMappingURL=main.css.map */
