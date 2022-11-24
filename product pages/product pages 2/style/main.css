@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#tops .top {
+  height: 10%;
+  background-color: rgb(35, 133, 109);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#tops .top .container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+#tops .top .container .icons {
+  display: flex;
+}
+#tops .top .container .icons i {
+  padding-left: 12px;
+}
+#tops .top .container .image {
+  opacity: 0.8;
+}
+#tops .top .container a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+#tops .top2 {
+  height: 90px;
+  background-color: #fff;
+  padding-top: 15px;
+}
+#tops .top2 .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#tops .top2 .container h2 {
+  font-size: 45px;
+}
+#tops .top2 .container ul {
+  display: flex;
+}
+#tops .top2 .container ul li {
+  list-style-type: none;
+  padding: 17px;
+}
+#tops .top2 .container ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: gray;
+}
+#tops .top2 .container .icons {
+  display: flex;
+}
+#tops .top2 .container .icons .pres {
+  display: flex;
+}
+#tops .top2 .container .icons .pres h3 {
+  color: rgb(32, 155, 232);
+}
+#tops .top2 .container .icons .icona {
+  padding-left: 25px;
+}
+#tops .top2 .container .icons .icona a {
+  padding: 2px;
+}
+#tops .top2 .container .icons .icona a img {
+  width: 20px;
+}
+#tops .top3 {
+  background-color: #fafafa;
+}
+#tops .top3 .container .topss {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 72%;
+  padding-top: 15px;
+}
+#tops .top3 .container .topss strong {
+  color: #000;
+}
+#tops .top3 .container .main {
+  margin: 0 auto;
+  width: 74%;
+  display: flex;
+  height: auto;
+  padding-top: 30px;
+}
+#tops .top3 .container .main .left {
+  width: 50%;
+}
+#tops .top3 .container .main .left .pre {
+  position: relative;
+}
+#tops .top3 .container .main .left .pre .fa-solid.fa-angle-left {
+  position: absolute;
+  bottom: 135px;
+  left: 44px;
+  font-size: 65px;
+  color: white;
+}
+#tops .top3 .container .main .left .pre .fa-solid.fa-angle-right {
+  position: absolute;
+  bottom: 135px;
+  right: 95px;
+  font-size: 65px;
+  color: white;
+}
+#tops .top3 .container .main .left .up {
+  padding-top: 10px;
+}
+#tops .top3 .container .main .right {
+  width: 50%;
+  line-height: 35px;
+}
+#tops .top3 .container .main .right .icons {
+  font-size: 25px;
+}
+#tops .top3 .container .main .right .icons .fa-solid.fa-star {
+  color: rgb(255, 221, 0);
+}
+#tops .top3 .container .main .right .icons .fa-regular.fa-star {
+  color: rgb(255, 221, 0);
+}
+#tops .top3 .container .main .right .icons b {
+  color: gray;
+  font-size: 25px;
+}
+#tops .top3 .container .main .right b {
+  line-height: 65px;
+  font-size: 35px;
+}
+#tops .top3 .container .main .right p {
+  line-height: 15px;
+}
+#tops .top3 .container .main .right .cre {
+  padding-top: 45px;
+}
+#tops .top3 .container .main .right .tre {
+  line-height: 8px;
+}
+#tops .top3 .container .main .right .crt {
+  padding-top: 25px;
+}
+#tops .top3 .container .main .right .circles {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding-top: 25px;
+}
+#tops .top3 .container .main .right .circles .blue {
+  background-color: rgb(0, 94, 255);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#tops .top3 .container .main .right .circles .green {
+  background-color: rgb(69, 174, 30);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#tops .top3 .container .main .right .circles .orange {
+  background-color: rgb(255, 94, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#tops .top3 .container .main .right .circles .black {
+  background-color: rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#tops .top3 .container .main .right .bottom {
+  display: flex;
+  padding-top: 15px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+#tops .top3 .container .main .right .bottom form input {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+}
+#tops .top3 .container .main .right .bottom i {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#medium {
+  padding-top: 25px;
+}
+#medium .container {
+  height: auto;
+}
+#medium .container .head {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  -moz-column-gap: 55px;
+       column-gap: 55px;
+  color: gray;
+}
+#medium .container .line {
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#medium .container .main {
+  display: flex;
+  -moz-column-gap: 155px;
+       column-gap: 155px;
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 39px;
+}
+#medium .container .main .first {
+  width: 50%;
+}
+#medium .container .main .first .vero {
+  border-left: 6px solid green;
+}
+#medium .container .main .first .second {
+  width: 50%;
+}
+#medium .container .main .first .second img {
+  width: 400px;
+  height: 380px;
+}
+
+#medium2 {
+  background-color: rgb(241, 240, 240);
+}
+#medium2 .container {
+  width: 68%;
+  margin: 0 auto;
+}
+#medium2 .container .top {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+#medium2 .container .top h1 {
+  color: rgb(0, 0, 75);
+}
+#medium2 .container2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  padding-top: 35px;
+}
+#medium2 .container2 .card {
+  width: auto;
+  height: 420px;
+  background-color: white;
+}
+#medium2 .container2 .card .text {
+  width: 75%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 25px;
+  text-align: left;
+}
+#medium2 .container2 .card .text h3 {
+  color: rgb(0, 0, 53);
+}
+#medium2 .container2 .card .text h4 {
+  color: rgb(79, 77, 77);
+  font-size: 17px;
+}
+#medium2 .container2 .card .text .pre {
+  color: gray;
+}
+#medium2 .container2 .card .text .up {
+  color: green;
+}
+#medium2 .container3 {
+  width: 78%;
+  padding-top: 13px;
+  margin: 0 auto;
+}
+#medium2 .container3 .image {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer {
+  width: 100%;
+}
+#footer .container .head {
+  display: flex;
+  justify-content: space-between;
+  line-height: 4;
+  align-items: center;
+  width: 72%;
+  margin: 0 auto;
+}
+#footer .container .head .top h1 {
+  font-size: 35px;
+  color: rgb(2, 2, 75);
+}
+#footer .container .head .icons {
+  color: rgb(0, 149, 255);
+  font-size: 25px;
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#footer .container .line {
+  width: 72%;
+  margin: 0 auto;
+}
+#footer .container .medium {
+  display: flex;
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+#footer .container .medium .ulli {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+#footer .container .medium .ulli h3 {
+  color: rgb(2, 2, 75);
+  height: 40%;
+}
+#footer .container .medium .ulli li {
+  list-style-type: none;
+  color: gray;
+  font-weight: bold;
+  line-height: 28px;
+}
+#footer .container .medium .button {
+  margin: 0 auto;
+}
+#footer .container .medium .button h3 {
+  color: rgb(2, 2, 75);
+  height: 40%;
+}
+#footer .container .medium .button .forms {
+  display: flex;
+}
+#footer .container .medium .button .forms .left input {
+  padding: 15px 25px;
+}
+#footer .container .medium .button .forms .right input {
+  padding: 17px 35px;
+  background-color: rgb(29, 164, 248);
+  border: none;
+}
+#footer .container .medium .button p {
+  padding-top: 5px;
+  color: gray;
+  font-size: 14px;
+}
+#footer .container .end {
+  width: 100%;
+  padding-top: 45px;
+}
+#footer .container .end .container {
+  display: flex;
+  width: 100%;
+  background-color: #e9e8e8;
+}
+#footer .container .end .container h2 {
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  color: gray;
+  padding: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #tops .top {
+    display: none;
+    width: 100%;
+  }
+  #tops .top2 {
+    width: 100%;
+  }
+  #tops .top2 h2 {
+    display: flex;
+    justify-content: left;
+    font-size: 30px !important;
+  }
+  #tops .top2 .container {
+    text-align: center;
+    display: block;
+  }
+  #tops .top2 .container ul {
+    display: block;
+  }
+  #tops .top2 .container ul li a {
+    font-size: 35px;
+  }
+  #tops .top .container {
+    padding-top: 15px;
+    width: 80%;
+  }
+  #tops .top2 .container .icons {
+    display: block;
+  }
+  #tops .top2 .container .icons .pres {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  #tops .top2 .container .icons .icona {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  #tops .top2 .container .icons .icona a {
+    padding: 10px;
+  }
+  #tops .top2 .container .icons .icona a img {
+    width: 35px;
+  }
+  #tops .top3 {
+    width: 100%;
+    height: auto;
+  }
+  #tops .top3 .container {
+    width: 90%;
+  }
+  #tops .top3 .topss {
+    text-align: center;
+  }
+  #tops .main {
+    width: 100% !important;
+    display: block !important;
+  }
+  #tops .main .left {
+    width: 100% !important;
+  }
+  #tops .main .left .pre {
+    padding-left: 25px;
+  }
+  #tops .main .left .up {
+    padding-left: 25px;
+  }
+  #tops .main .right {
+    width: 100% !important;
+    padding-left: 55px;
+  }
+  #tops .main .right .tre {
+    font-size: 25px;
+  }
+  #tops .main .right .cre {
+    max-width: 290px;
+    font-size: 17px;
+    padding: 15px 0px;
+  }
+  #tops .main .right .crt {
+    width: 60%;
+  }
+  #medium {
+    padding-top: 150px;
+  }
+  #medium .container .head {
+    width: 155.3%;
+  }
+  #medium .container .line {
+    display: none;
+  }
+  #medium .container .main {
+    display: block;
+  }
+  #medium .container .main .first {
+    width: 100%;
+  }
+  #medium .container .main .first img {
+    width: 165%;
+  }
+  #medium .container .main .second {
+    width: 100%;
+  }
+  #medium .container .main .third {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
